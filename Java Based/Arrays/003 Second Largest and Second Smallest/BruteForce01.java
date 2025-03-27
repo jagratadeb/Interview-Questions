@@ -1,4 +1,5 @@
-// Find the second largest and second smallest element in the array.
+// Find the second largest and second smallest element in the array
+// If none exist print -1 for both.
 
 import java.util.Arrays;
 
@@ -7,8 +8,8 @@ import java.util.Arrays;
 // 2. Sort the array.
 // 3. The second smallest element will be at index 1.
 // 4. The second largest element will be at index n-2 (where n is the length of the array).
-
 // 5. Print the second largest and second smallest elements.
+
 // Time Complexity: O(n log n) due to sorting the array.
 // Space Complexity: O(n) for the copy of the array.
 class BruteForce01 {
